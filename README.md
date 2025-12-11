@@ -35,3 +35,59 @@ An intelligent, automated attendance marking system using face recognition techn
    ```bash
    git clone https://github.com/Arsh1233/attendance-system.git
    cd attendance-system
+   Create virtual environment (Recommended)
+
+bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+Install dependencies
+
+bash
+pip install -r requirements.txt
+Run the application
+
+bash
+streamlit run app.py
+Open your browser and navigate to http://localhost:8501
+
+📖 How to Use
+Step 1: Upload Student Photos
+Navigate to the sidebar
+
+Upload individual photos of each student
+
+Naming convention: Use firstname_lastname.jpg (e.g., john_doe.jpg)
+
+The system will automatically extract names from filenames
+
+Step 2: Upload Class Photo
+Use the main uploader to upload a group/class photo
+
+Supported formats: JPG, JPEG, PNG
+
+Ensure good lighting and frontal faces for best results
+
+Step 3: Run Attendance Recognition
+Click the "Run Attendance Recognition" button
+
+The system will:
+
+Detect all faces in the class photo
+
+Compare each face with the known student database
+
+Mark attendance with green boxes (recognized) and red boxes (unknown)
+
+Generate attendance report
+
+Step 4: Download Results
+CSV Report: Download attendance data as CSV
+
+Annotated Image: Download the class photo with face annotations
+
+Reset System: Clear all uploaded data and start fresh
