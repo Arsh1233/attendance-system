@@ -10,9 +10,6 @@
 
 An intelligent, automated attendance marking system using face recognition technology. Upload student photos and class photos to automatically detect faces and mark attendance with visual annotations.
 
-
-![Attendance System Interface](https://via.placeholder.com/800x450.png?text=AI+Attendance+System+Interface)
-
 ## ✨ Features
 
 - **Automated Face Detection**: Uses Haar Cascade classifiers to detect faces in images
