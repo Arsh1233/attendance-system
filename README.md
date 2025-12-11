@@ -10,7 +10,6 @@
 
 An intelligent, automated attendance marking system using face recognition technology. Upload student photos and class photos to automatically detect faces and mark attendance with visual annotations.
 
-**Live Demo**: [https://attendance-system-arsh1233.streamlit.app](https://attendance-system-arsh1233.streamlit.app)
 
 ![Attendance System Interface](https://via.placeholder.com/800x450.png?text=AI+Attendance+System+Interface)
 
@@ -37,6 +36,7 @@ An intelligent, automated attendance marking system using face recognition techn
    ```bash
    git clone https://github.com/Arsh1233/attendance-system.git
    cd attendance-system
+```
 ### Create Virtual Environment (Recommended)
 
 ```bash
